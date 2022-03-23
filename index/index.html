@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../scripts/js.js"></script>
+</head>
+<body>
+    <div class="mainD">
+        <nav class="nav">
+            <a href="#" onclick="newGame()">New Game</a> 
+            <a href="#" onclick="deletLastMove()">Delet Last Move</a>
+            <a href="#" onclick="showRecord()">Show Record</a>
+            <a href="#" onclick="save()">Save Game</a>
+            <a href="#" onclick="load()">Load Game</a>
+        </nav>
+        <div class="TTT">
+            <table class="table">
+                <tr class="border">
+                    <td onclick="addSimbol(1)" class="border" id="1"></td>
+                    <td onclick="addSimbol(2)" class="border" id="2"></td>
+                    <td onclick="addSimbol(3)" class="border" id="3"></td>
+                </tr>
+                <tr class="border">
+                    <td onclick="addSimbol(4)" class="border" id="4"></td>
+                    <td onclick="addSimbol(5)" class="border" id="5"></td>
+                    <td onclick="addSimbol(6)" class="border" id="6"></td>
+                </tr>
+                <tr class="border">
+                    <td onclick="addSimbol(7)" class="border" id="7"></td>
+                    <td onclick="addSimbol(8)" class="border" id="8"></td>
+                    <td onclick="addSimbol(9)" class="border" id="9"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
